@@ -1,0 +1,61 @@
+/*
+*Inventory_Management_System - Login
+*Created by Unityx. All rights reserved.
+*/
+
+/*BackgroundPane (=AnchorPane)*/
+.backgroundPane {
+	-fx-background-image: url("../images/background-img_login.jpg");
+	-fx-width: 780px;
+	-fx-height: 640px;
+}
+
+/*loginPane (=AnchorPane)*/
+.loginPane {
+	-fx-background-color: transparent;
+}
+
+/*lblTitle (=Label)*/
+.lblTitle {
+	-fx-text-fill: white;
+	-fx-font-size: 22px;
+	-fx-font-weight: bold;
+}
+
+/*tfUsername (=Textfield)*/
+.tfUsername {
+	-fx-background-color: transparent;
+	-fx-border-color: white;
+	-fx-prompt-text-fill: white;
+	-fx-text-fill: white;
+}
+
+/*tfPassword (=Textfield)*/
+.tfPassword {
+	-fx-background-color: transparent;
+	-fx-border-color: white;
+	-fx-prompt-text-fill: white;
+	-fx-text-fill: white;
+}
+
+/*btnLogin (=Button)*/
+.btnLogin {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+	-fx-border-color: white;
+	-fx-border-radius: 50%;
+	/*-fx-cursor: pointer;*/
+}
+
+/*hlAddAccount (=Hyperlink)*/
+.hlAddAccount {
+	-fx-text-fill: white;
+}
+
+/*hlForgotPassword (=Hyperlink)*/
+.hlForgotPassword {
+	-fx-text-fill: white;
+}
+
+
+
